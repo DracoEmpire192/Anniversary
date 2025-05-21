@@ -27,15 +27,24 @@ export const Greeting: React.FC = () => {
             </h2>
 
             <p className="text-gray-300 leading-relaxed">
-              As I sit here writing this letter, my heart overflows with gratitude for the incredible parents you've been to me. I remember those warm Sunday mornings when we'd make pancakes together, Dad telling his signature jokes while Mom orchestrated our little kitchen symphony. Those moments, seemingly simple then, have become treasured memories that I carry with me always.
+            आई म्हणजे मायेचा सागर,
+नजरेतच वाचते आपला उदास आधार.
+क्षणोक्षणी चिंता तिची आपल्यासाठी,
+तिच्या मिठीत जगाचं सुख सामावलेलं असतं किती!
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              You've sacrificed so much to give me the best life possible. From working extra hours to fund my education, to staying up late helping with school projects, to teaching me the values that have shaped who I am today. Your unwavering support and guidance have been the foundation of every success I've achieved.
+            बाबा म्हणजे आधाराचा डोंगर,
+शब्द कमी, पण कृतीतून प्रेमाचा झरा खोलवर.
+रात्रंदिवस कष्ट करून जग सजवत असतात,
+स्वतः झिजून आपल्याला सुखी ठेवतात.
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              Mom, your strength and compassion have taught me how to face life's challenges with grace. Your warm hugs have been my safe harbor in every storm. Dad, your wisdom and integrity have shown me what it means to be a person of character. Your quiet confidence has given me the courage to chase my dreams.
+            आई-बाबा दोघंही जीवनाचं खंबीर स्तंभ,
+त्यांच्याशिवाय वाटतं सगळं काही कुणंही न संपलं.
+त्यांचं प्रेम, त्यांची साथ — हीच खरी दौलत,
+त्यांचं आशीर्व
             </p>
 
             <p className="text-gray-300 leading-relaxed">
