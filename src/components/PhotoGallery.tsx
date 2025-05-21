@@ -98,7 +98,7 @@ export const PhotoGallery: React.FC = () => {
         <div className={`relative transition-all duration-1500 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
         }`}>
-          <div className="relative overflow-hidden rounded-2xl shadow-2xl h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] bg-gray-100">
+          <div className="relative overflow-hidden rounded-2xl shadow-2xl h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] bg-gray-100">
             {photos.map((photo, index) => (
               <div 
                 key={photo.id}
