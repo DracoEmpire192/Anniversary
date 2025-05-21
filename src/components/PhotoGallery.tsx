@@ -5,27 +5,27 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    url: "https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg",
+    url: "/src/components/SS6.jpeg",
     caption: "The day we first met"
   },
   {
     id: 2,
-    url: "https://images.pexels.com/photos/3342697/pexels-photo-3342697.jpeg",
-    caption: "Our wedding day"
+    url: "/src/components/SS2.jpeg",
+    caption: "Our priceless moments"
   },
   {
     id: 3,
-    url: "https://images.pexels.com/photos/1415131/pexels-photo-1415131.jpeg",
-    caption: "Family vacation"
+    url: "/src/components/F2.jpeg",
+    caption: "Family photo"
   },
   {
     id: 4,
-    url: "https://images.pexels.com/photos/5638612/pexels-photo-5638612.jpeg",
+    url: "/src/components/SS5.jpeg",
     caption: "Anniversary celebration"
   },
   {
     id: 5,
-    url: "https://images.pexels.com/photos/3831567/pexels-photo-3831567.jpeg",
+    url: "/src/components/SS1.jpeg",
     caption: "A special moment"
   }
 ];
@@ -91,14 +91,14 @@ export const PhotoGallery: React.FC = () => {
         <h2 className={`text-3xl md:text-4xl font-bold text-center mb-12 font-serif transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
-          <span className="text-gray-800">Treasured</span>
-          <span className="text-rose-600 ml-2">Memories</span>
+          <span className="text-white-800">Treasured</span>
+          <span className="text-yellow-600 ml-2">Memories</span>
         </h2>
         
         <div className={`relative transition-all duration-1500 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
         }`}>
-          <div className="relative overflow-hidden rounded-2xl shadow-2xl aspect-[16/9] bg-gray-100">
+          <div className="relative overflow-hidden rounded-2xl shadow-2xl h-[500px] bg-gray-100">
             {photos.map((photo, index) => (
               <div 
                 key={photo.id}
