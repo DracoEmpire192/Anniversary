@@ -12,7 +12,8 @@ export const Footer: React.FC = () => {
         </div>
         
         <p className="text-gray-600">
-          With all our love on this special day.
+          With all our love on this special day, 
+          Happy Anniversary Mom and Dad.
         </p>
         
         <div className="mt-8 inline-flex p-3 rounded-full bg-white/50 backdrop-blur-sm shadow-sm">
