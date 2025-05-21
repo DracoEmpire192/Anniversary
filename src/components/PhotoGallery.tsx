@@ -5,27 +5,27 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    url: "public/assets/SS6.jpeg",
+    url: "/public/assets/SS6.jpeg",
     caption: "The day we first met"
   },
   {
     id: 2,
-    url: "public/assets/SS2.jpeg",
+    url: "/public/assets/SS2.jpeg",
     caption: "Our priceless moments"
   },
   {
     id: 3,
-    url: "public/assets/F2.jpeg",
+    url: "/public/assets/F2.jpeg",
     caption: "Family photo"
   },
   {
     id: 4,
-    url: "public/assets/SS5.jpeg",
+    url: "/public/assets/SS5.jpeg",
     caption: "Anniversary celebration"
   },
   {
     id: 5,
-    url: "public/assets/SS1.jpeg",
+    url: "/public/assets/SS1.jpeg",
     caption: "A special moment"
   }
 ];
@@ -98,7 +98,7 @@ export const PhotoGallery: React.FC = () => {
         <div className={`relative transition-all duration-1500 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
         }`}>
-          <div className="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3] bg-gray-100">
+          <div className="relative overflow-hidden rounded-2xl shadow-2xl height-[500px] bg-gray-100">
             {photos.map((photo, index) => (
               <div 
                 key={photo.id}
