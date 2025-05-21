@@ -5,22 +5,22 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    url: "public/src/components/SS6.jpeg",
+    url: "SS6.jpeg",
     caption: "The day we first met"
   },
   {
     id: 2,
-    url: "public/src/components/SS2.jpeg",
+    url: "/src/components/SS2.jpeg",
     caption: "Our priceless moments"
   },
   {
     id: 3,
-    url: "public/src/components/F2.jpeg",
+    url: "/src/components/F2.jpeg",
     caption: "Family photo"
   },
   {
     id: 4,
-    url: "public/src/components/SS5.jpeg",
+    url: "/src/components/SS5.jpeg",
     caption: "Anniversary celebration"
   },
   {
