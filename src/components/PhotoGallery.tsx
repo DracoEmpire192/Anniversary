@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 const photos = [
   {
     id: 1,
-    url: "SS6.jpeg",
+    url: "/src/components/SS6.jpeg",
     caption: "The day we first met"
   },
   {
