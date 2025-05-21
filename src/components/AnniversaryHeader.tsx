@@ -35,33 +35,15 @@ export const AnniversaryHeader: React.FC = () => {
               scrolled ? 'text-gray-800' : 'text-rose-700'
             }`}
           >
-            Anniversary Celebration
+            Anniversary Celebration 21 May 2025
           </h1>
         </div>
         <div className="flex items-center">
           <div className="bg-rose-100 text-rose-800 px-4 py-2 rounded-full font-semibold shadow-sm">
-            <AnniversaryCounter />
+            
           </div>
         </div>
       </div>
     </header>
-  );
-};
-
-const AnniversaryCounter: React.FC = () => {
-  // You can change this to the actual anniversary date
-  const anniversaryDate = new Date('1990-06-15'); // Example date
-  const today = new Date();
-  
-  const years = today.getFullYear() - anniversaryDate.getFullYear();
-  const months = today.getMonth() - anniversaryDate.getMonth();
-  const days = today.getDate() - anniversaryDate.getDate();
-  
-  const adjustedMonths = months < 0 ? months + 12 : months;
-  
-  return (
-    <span>
-      {years} Years, {adjustedMonths} Months
-    </span>
   );
 };
